@@ -16,6 +16,16 @@ public class Persona {
     private int numeroSeguridadSocial;
     private string estado_civil;
 
+    private boolean trabajo; //Indicar si trabaja o no trabaja la persona
+
+    public boolean GetTrabajo()
+    {
+        return trabajo;
+    }
+    public void SetTrabajo(boolean TrabajoSetter)
+    {
+        trabajo = TrabajoSetter;
+    }
 
     public String getNombre(){
         return nombre;
