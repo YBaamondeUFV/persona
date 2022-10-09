@@ -1,4 +1,4 @@
-package Persona3;
+package Persona;
 
 public class Persona {
     // Poniendo un comentari
@@ -14,7 +14,16 @@ public class Persona {
     private String signozodiaco;
     private int peso;
     private int numeroSeguridadSocial;
-    private string estado_civil;
+    private String estado_civil;
+
+    private int amigos;
+
+    public int getAmigos(){
+        return amigos;
+    }
+    public void setAmigos(int amigos){
+        this.amigos = amigos;
+    }
 
 
     public String getNombre(){
@@ -31,10 +40,10 @@ public class Persona {
     public int getNumeroSeguridadSocial(){
         return numeroSeguridadSocial;
     }
-    public string getEstado_civil(){
+    public String getEstado_civil(){
         return estado_civil;
     }
-    public string getcomidaFavorita(){
+    public String getcomidaFavorita(){
         return dniSinLetra;
     }
 
