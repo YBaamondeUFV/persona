@@ -9,12 +9,14 @@ public class Persona {
     private String comidaFavorita;
     private String nacionalidad;
 
+    private int edadPadre;
+
     private int hijos;
     private int telefono;
     private String signozodiaco;
     private int peso;
     private int numeroSeguridadSocial;
-    private string estado_civil;
+    private String estado_civil;
 
 
     public String getNombre(){
@@ -31,16 +33,16 @@ public class Persona {
     public int getNumeroSeguridadSocial(){
         return numeroSeguridadSocial;
     }
-    public string getEstado_civil(){
-        return estado_civil;
-    }
-    public string getcomidaFavorita(){
-        return dniSinLetra;
-    }
+
 
     public int getEdad(){
         return edad;
     }
+
+    public int getEdadPadre(){
+        return edadPadre;
+    }
+
     public String getNacionalidad(){
         return nacionalidad;
     }
@@ -77,9 +79,6 @@ public class Persona {
         this.apellidos = apell;
     }
 
-    public void setApellidos(String apel){
-        this.apellidos= apel;
-    }
 
     public void setDnisinletra(int dni){
         this.dnisinletra = dni;
@@ -110,6 +109,10 @@ public class Persona {
         }
         this.edad = ed;
 	}
+
+    public void setEdadPadre(int ed){
+        this.edadPadre = ed;
+    }
 	
 
 
